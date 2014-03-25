@@ -123,6 +123,24 @@ div.subscript {
     font-size: 85%;
 }
 
+div.bar {
+    /*text-shadow: 1px 1px 0px white;*/
+    margin: -0.9em auto 0.2em auto;
+    padding: 0.5em;
+    font-size: 108%;
+    color: black;
+    background-color: white;
+}
+
+div.sample {
+    text-shadow: none;
+    margin: -0.9em auto 0.2em auto;
+    padding: 0.5em;
+    font-size: 88%;
+    color: #121212;
+    background-color: #869696;
+}
+
 div.sample {
     text-shadow: none;
     margin: -0.9em auto 0.2em auto;
