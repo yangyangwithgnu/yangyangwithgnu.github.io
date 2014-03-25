@@ -1,0 +1,219 @@
+body {
+    color: #E9E9E9;
+    background-color: #233243;
+    font-family: "YaHei Consolas Hybrid";
+    width: 940px;
+    font-size: 15.5px;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    /*text-align: justify;*/
+    text-shadow: 0px 1px 0px black;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double white;
+    color: white;
+}
+
+hr:after {
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 130%;
+    padding: 0 0.25em;
+    background: #6F6F6F;
+}
+
+hr.share:after {
+    content: "分享";
+}
+hr.adver:after {
+    content: "广告";
+}
+hr.version:after {
+    content: "版本";
+}
+hr.index:after {
+    content: "目录";
+}
+hr.content:after {
+    content: "正文";
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+    color: white;
+    text-shadow: 0px 1px 0px black;
+}
+h1 {
+    font-size: 180%;
+}
+h2 {
+    font-size: 150%;
+}
+h3 {
+    font-size: 130%;
+}
+h4 {
+    font-size: 115%;
+}
+h5 {
+    font-size: 108%;
+}
+
+
+p {
+    text-indent: 2em;
+}
+
+b {
+    color: white;
+}
+
+a {
+    /*font-size: 90%;*/
+    color: inherit;
+    /*font-style: italic;*/
+    /*text-decoration: none;*/
+}
+
+a:hover {
+    color: white;
+    font-style: normal;
+    text-shadow: 0px 0px 2px green;
+}
+
+div.top a {
+    font-style: normal;
+    color: #C9C9C9;
+    font-size: 110%;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px black;
+}
+ 
+div.index a {
+    font-style: normal;
+    color: #C9C9C9;
+    font-size: 110%;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px black;
+}
+
+div.quote {
+    margin: -0.7em auto 0px auto;
+    padding: 1em;
+    text-align: center;
+    font-size: 130%;
+    color: #1F1F1F;
+    background-color: #869696;
+    text-shadow: 1px 1px 0px white;
+}
+div.quote a {
+    color: #1F1F1F;
+}
+
+div.subscript {
+    text-align: right;
+    text-shadow: none;
+    font-size: 85%;
+}
+
+div.sample {
+    text-shadow: none;
+    margin: -0.9em auto 0.2em auto;
+    padding: 0.5em;
+    font-size: 88%;
+    color: #121212;
+    background-color: #869696;
+}
+
+li div.sample {
+    margin: 0.2em auto 0.0em auto;
+}
+
+img {
+    max-width: 940px;
+    margin: 0.3em auto -0.9em auto;
+    display: block;
+}
+
+p.img_descr {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0em;
+    /*margin: 0.3em auto -0.9em auto;*/
+}
+
+ul, ol {
+    margin: -1em auto 0em auto;
+}
+
+
+div#slogan {
+    text-align: center;
+    font-size: 135%;
+    padding: 0.6em;
+    font-style: italic;
+    text-shadow: 2px 2px 0px black;
+}
+
+
+
+hr.article:after {
+    content: "文章";
+}
+hr.software:after {
+    content: "软件";
+}
+hr.contact:after {
+    content: "联系";
+}
+
+#cssmenu {
+    background: #2C5463;
+    height: 34px;
+}
+#cssmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#cssmenu a {
+    font-style: normal;
+    font-size: 110%;
+}
+#cssmenu ul li {
+    display: block;
+    position: relative;
+    float: left;
+    width: 7em;
+    text-align: center;
+}
+#cssmenu li ul { display: none; }
+#cssmenu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    /*border-top: 1px solid #ffffff;*/
+    /*border-bottom: 1px solid #ffffff;*/
+    padding: 5px 15px 5px 15px;
+    background: #2C5463;
+    margin-top: 1px;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+#cssmenu ul li a:hover { background: #617F8A; }
+#cssmenu li:hover ul {
+    display: block;
+    position: absolute;
+}
+#cssmenu li:hover li {
+    float: none;
+}
+#cssmenu li:hover a { background: #617F8A; }
+#cssmenu li:hover li a:hover { background: #95A9B1; }
