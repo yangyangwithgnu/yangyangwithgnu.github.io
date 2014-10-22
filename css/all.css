@@ -170,6 +170,9 @@ hr.article:after {
 hr.software:after {
     content: "软件";
 }
+hr.misc:after {
+    content: "其他";
+}
 hr.contact:after {
     content: "联系";
 }
