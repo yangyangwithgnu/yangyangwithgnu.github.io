@@ -173,8 +173,8 @@ hr.software:after {
 hr.misc:after {
     content: "其他";
 }
-hr.contact:after {
-    content: "联系";
+hr.info:after {
+    content: "信息";
 }
 
 #cssmenu {
