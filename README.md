@@ -1,1 +1,1 @@
-my homepage http://yangyangwithgnu.github.io/ and email yangyang.gnu@gmail.com, touch me <_<
+my homepage http://yangyangwithgnu.github.io/ and email yangyangwithgnu@yeah.net, touch me <_<
