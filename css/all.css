@@ -176,6 +176,9 @@ hr.misc:after {
 hr.info:after {
     content: "信息";
 }
+hr.book:after {
+    content: "书籍";
+}
 
 #cssmenu {
     background: #2C5463;
