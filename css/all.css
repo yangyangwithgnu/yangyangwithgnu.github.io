@@ -78,7 +78,7 @@ a {
     /*font-size: 90%;*/
     color: inherit;
     /*font-style: italic;*/
-    /*text-decoration: none;*/
+    text-decoration: none;
 }
 
 a:hover {
@@ -178,6 +178,9 @@ hr.info:after {
 }
 hr.book:after {
     content: "书籍";
+}
+hr.vuln:after {
+    content: "漏洞";
 }
 
 #cssmenu {
