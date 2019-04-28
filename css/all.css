@@ -172,6 +172,9 @@ hr.misc:after {
 hr.info:after {
     content: "信息";
 }
+hr.make_life_easier:after {
+    content: "make life easier";
+}
 hr.book:after {
     content: "书籍";
 }
