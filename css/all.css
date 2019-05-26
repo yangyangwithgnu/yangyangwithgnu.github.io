@@ -161,25 +161,25 @@ div#slogan {
 
 
 hr.article:after {
-    content: "文章";
+    content: "article";
 }
 hr.software:after {
-    content: "软件";
+    content: "software";
 }
 hr.misc:after {
-    content: "其他";
+    content: "misc.";
 }
 hr.info:after {
-    content: "信息";
+    content: "info.";
 }
 hr.make_life_easier:after {
     content: "make life easier";
 }
 hr.book:after {
-    content: "书籍";
+    content: "book";
 }
 hr.vuln:after {
-    content: "漏洞";
+    content: "vuln.";
 }
 
 #cssmenu {
