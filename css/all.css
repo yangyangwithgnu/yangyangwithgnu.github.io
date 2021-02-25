@@ -181,6 +181,12 @@ hr.book:after {
 hr.vuln:after {
     content: "vuln.";
 }
+hr.part_time:after {
+    content: "part time";
+}
+hr.recent_focus_on:after {
+    content: "recent focus on";
+}
 
 #cssmenu {
     background: #2C5463;
